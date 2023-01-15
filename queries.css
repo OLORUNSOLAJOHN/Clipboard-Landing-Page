@@ -1,0 +1,176 @@
+/* FROM REM TO PX, DO NOT DEPEND ON HTML FONT SIZE IN MEDIA QUERY */
+/* Instead, 1rem = 1em = 16px */
+/* Mobile: 375px */
+
+@media (max-width: 59em) {
+  :root {
+    --max-width: 62rem;
+  }
+
+  .container {
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    width: 62rem;
+    height: 35rem;
+  }
+
+  .logo-box {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .logo {
+    height: 100%;
+    width: 100%;
+  }
+
+  .topic {
+    font-size: 4rem;
+    max-width: 45rem;
+    margin-bottom: 2rem;
+  }
+
+  .heading {
+    max-width: 45rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .heading-description {
+    max-width: 50rem;
+    font-size: 2rem;
+    margin-bottom: 9rem;
+    text-align: center;
+  }
+
+  .access-marginbm {
+    max-width: 50rem;
+  }
+
+  .margin-btm {
+    margin-bottom: 13rem;
+  }
+
+  .btn {
+    padding: 2rem 12rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .margin-tp {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+  }
+
+  .flex-container {
+    width: 62rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .macbook-img {
+    width: 70%;
+    margin-left: 0rem;
+  }
+
+  .tablet {
+    width: 90%;
+  }
+
+  .icons-img {
+    height: 5rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .featuredicons-box {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .featured-icons {
+    margin-bottom: 4rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer {
+    width: 100rem;
+    color: hsl(210, 10%, 33%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 30rem;
+  }
+
+  .footerlogo-box {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .footer-logo {
+    height: 100%;
+    width: 100%;
+  }
+
+  .footerlink-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-column {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-link {
+    margin-right: 0rem;
+  }
+
+  .link1 {
+    margin-bottom: 3rem;
+  }
+
+  .sociallogo-box {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .footer-logo {
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo1 {
+    margin-right: 5rem;
+  }
+
+  .social-logo {
+    font-size: 5rem;
+    display: flex;
+    column-gap: 7rem;
+  }
+}
